@@ -1,0 +1,17 @@
+{
+  "name": "preconstruct-repro",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@preconstruct/cli": "^2.2.1",
+    "lerna": "^5.5.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "preconstruct": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

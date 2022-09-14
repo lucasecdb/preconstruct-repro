@@ -1,0 +1,7 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "main": "dist/c.cjs.js",
+  "module": "dist/c.esm.js",
+  "license": "MIT"
+}
